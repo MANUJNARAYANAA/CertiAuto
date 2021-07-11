@@ -10,6 +10,6 @@ for i in name_list:
     text_color = (40, 35, 93)
     font = ImageFont.truetype("courbd.ttf", 150)
     d.text(location, i, fill=text_color,font=font)
-    im.save("certificate_"+i+".pdf")
+    im.save("./certificates/"+"certificate_"+i+".pdf")
 
 
