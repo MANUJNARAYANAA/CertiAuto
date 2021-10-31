@@ -20,7 +20,7 @@ def read_contacts(filename):
 fnames, lnames, receivers = read_contacts('contacts.txt')
 
 sender = 'stateofyouthkpm@gmail.com'
-password= 'soykpmkpm'
+password= '************'
 
 session = smtplib.SMTP('smtp.gmail.com', 587)
 session.starttls()
